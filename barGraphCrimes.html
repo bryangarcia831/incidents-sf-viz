@@ -10,5 +10,15 @@
 <script src='//d3js.org/d3.v4.min.js'></script>
 <svg width='1500' height='1000'></svg>
 <script>
-
+    let allDaysOfWeek = {};
+    d3.csv('data/Police_Department_Incidents.csv', function (file) {
+        file.forEach(function (row) {
+        	if (!allDaysOfWeek[row.DayOfWeek]) {
+				allDaysOfWeek[row.DayOfWeek] = 1;
+			} else {
+				allDaysOfWeek[row.DayOfWeek]++;
+            }
+        });
+        console.log(allDaysOfWeek);
+	});
 </script>
