@@ -10,6 +10,9 @@ Main technology is using [Data-Driven Documents (D3.js)](https://d3js.org) to tr
 ***
 ### Screenshots
 
+![alt text](https://raw.githubusercontent.com/bryangarcia831/incidents-sf-viz/master/screenshots/Bar_Graph_of_SF_Incidents.jpg "Bar Graph")
+Bar graph of SF Incidents (updated Sep 2017)
+
 ***
 
 Developer: Bryan Garcia
