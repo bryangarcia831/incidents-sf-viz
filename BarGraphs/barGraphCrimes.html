@@ -68,7 +68,7 @@
 		.attr('height', height + margin.top + margin.bottom)
 		.append('g');
 
-	d3.csv('data/reducedDays.csv', function (error, data) {
+	d3.csv('../data/reducedDays.csv', function (error, data) {
 		if (error) throw error;
 
 		data.forEach(function (d) {
