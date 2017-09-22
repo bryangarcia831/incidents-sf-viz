@@ -1,4 +1,5 @@
 
+
 let uniqueCategory = {};
 let uniqueDistricts = {};
 let uniqueResolutions = {};
@@ -33,10 +34,12 @@ function reduceCSV() {
 
 		});
 
+		let combined = {};
+		combined["Districts"] = uniqueDistricts;
+		combined["Category"] = uniqueCategory;
+		combined["Resolutions"] = uniqueResolutions;
 
-		saveText(JSON.stringify(uniqueDistricts), "uniqueDistricts.json");
-		saveText(JSON.stringify(uniqueCategory), "uniqueCategory.json");
-		saveText(JSON.stringify(uniqueResolutions), "uniqueResolutions.json");
+		saveText(JSON.stringify(combined), "uniquesDonut.json");
 	});
 
 
