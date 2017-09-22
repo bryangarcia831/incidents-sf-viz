@@ -14,7 +14,7 @@ Weekly breakdown of total crimes from two million analyzed rows. Highest day of 
 
 Screenshot:
 ![alt text](https://raw.githubusercontent.com/bryangarcia831/incidents-sf-viz/master/screenshots/Bar_Graph_of_SF_Incidents.jpg "Bar Graph")
-[Run this in your browser](https://cdn.rawgit.com/bryangarcia831/incidents-sf-viz/36df9f7b/BarGraphs/barGraphCrimes.html)
+[Run this in your browser](https://cdn.rawgit.com/bryangarcia831/incidents-sf-viz/f6cc11de/BarGraphs/barGraphCrimes.html)
 
 *Donut Graph Visual (To be implemented)*
 
